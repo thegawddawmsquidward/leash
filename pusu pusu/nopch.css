@@ -1,0 +1,611 @@
+:root{
+    scroll-behavior: smooth;
+}
+#demo{
+    background-color: rgb(255, 255, 255);
+    transition: 0.7s;
+}
+@font-face {
+    font-family: iranMotherFuckingYekan;
+    src: url(Qs_Iranyekan.ttf);
+ }
+ 
+ * {
+    font-family: iranMotherFuckingYekan;
+ }
+body{
+    padding: 0%;
+    margin: 0%;
+    scroll-behavior: smooth;
+    }
+    .header{
+    width: 100%;
+    height:350px;
+    background-color: rgb(251, 47, 47);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.096), rgba(0, 0, 0, 0.055), rgba(0, 0, 0, 0));    
+}
+    .neveshte{
+    position: relative;
+    margin-top: 30px;
+    text-align: right;
+    color: white;
+    font-size: 60px;
+    margin-right: 50px;
+    font-weight: bold 100px;
+    }
+    .neveshte2{
+    position: relative;
+    text-align: right;
+    color: white;
+    font-size: 60px;
+    margin-right: 50px;
+    }
+    .main{
+        position: absolute;
+        border-radius: 20px;
+        width:98%;
+        height:170px;
+        margin-top: 365px;
+        background-color: #0097c5;
+        margin-left: 13px;
+    }
+    .neveshte-box{
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(to right, #D9D9D9 , #84aebb , #0097c5);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    font-size: 30px;
+    position: relative; 
+    }
+    .grad{
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    #myImage{
+        transition: 0.7s;
+    }
+    .bottem{
+        width: 130px;
+        height: 50px;
+        background-color:#D9D9D9 ;
+        font-size: 20px;
+        border-radius: 12px;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: -220px;
+        border: none;
+        cursor: pointer;
+        scroll-behavior: smooth;
+        transition: 0.7s;
+    }
+    .vo{
+        width: 50px;
+        height: 50px;
+        background-color:#D9D9D9 ;
+        font-size: 20px;
+        border-radius: 12px;
+        position: absolute;
+        margin-left: 20px;
+        border: none;
+        margin-top: -220px; 
+        transition: 0.7s;
+    }
+    .main span{
+        color: black;
+        margin-top: 65px;
+        font-size: 35px;
+        position: absolute;
+        margin-left: 40px;
+        transition: 0.7s;
+    }
+    .footer{
+    margin-top: 530px;
+    width: 98%;
+    height: 350px;
+    position: absolute;
+    background-color: #D9D9D9;
+    margin-left: 13px;
+    border-radius: 20px;
+    transition: 0.7s;
+    }
+    
+    .box-{
+        width: 100%;
+        height: 15px;
+        margin-top: 350px;
+        /*background-color: #b60707;*/
+        position: absolute;
+        transition: 0.7s;
+    }
+    .box1{
+    background-color: #B1B1B1;
+    position: absolute;
+    border-radius: 20px;
+    float: right;
+    margin-top: 8px;
+    margin-left: 80.6%;
+    height: 94%;
+    width: 241px;
+    transition: 0.7s;
+}
+    .box2{
+    background-color: #B1B1B1;
+    position: absolute;
+    border-radius: 20px;
+    float: right;
+    height: 94%;
+    width: 241px;
+    margin-top: 8px;
+    margin-left: 60.6%;
+    transition: 0.7s;
+    }
+    .box3{
+    background-color: #B1B1B1;
+    position: absolute;
+    border-radius: 20px;
+    float: right;
+    height: 94%;
+    width: 241px;
+    margin-top: 8px;
+    margin-left: 40.6%;
+    transition: 0.7s;
+    }
+    .box4{
+    background-color: #B1B1B1;
+    position: absolute;
+    border-radius: 20px;
+    float: right;
+    margin-top: 8px;
+    margin-left: 20.6%;
+    height: 94%;
+    width: 241px;
+    transition: 0.7s;
+    }
+    .box5{
+    background-color: #B1B1B1;
+    position: absolute;
+    border-radius: 20px;
+    float: right;
+    margin-top: 8px;
+    margin-left: 1%;
+    height: 94%;
+    width: 241px;
+transition: 0.7s;
+}
+    .img{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        border-radius: 20px;
+        margin: 20px;
+        position: absolute;
+    }
+    .img div{
+    font-size: 30px;
+    margin-top: 215px;
+    position: absolute;
+    margin-left: 160px;
+    }
+    .toman{
+        font-size: 23px;
+        position: absolute;
+        margin-top: 275px;
+        text-align: right;
+        margin-left: 170px;
+    }
+    .box1 .nm {
+        display: none;
+    }
+    .box1.acti .nm{
+        display: block;
+        color: white;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 60px;
+        font-size: 42px;
+    }
+    .box1.acti{
+        background-color: #949494;
+        transition: 0.7s;
+
+    }
+    .box1.acti .toman{
+        display: none;
+    }
+    .box2 .nm {
+        display: none;
+    }
+    .box2.acti .nm{
+        display: block;
+        color: white;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 60px;
+        font-size: 42px;
+    }
+    .box2.acti{
+        background-color: #949494;
+        transition: 0.7s;
+    }
+    .box2.acti .toman{
+        display: none;
+    }
+    .box3 .nm {
+        display: none;
+    }
+    .box3.acti .nm{
+        display: block;
+        color: white;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 60px;
+        font-size: 42px;
+    }
+    .box3.acti{
+        background-color: #949494;
+        transition: 0.7s;
+    }
+    .box3.acti .toman{
+        display: none;
+    }
+    .box4 .nm {
+        display: none;
+    }
+    .box4.acti .nm{
+        display: block;
+        color: white;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 60px;
+        font-size: 42px;
+    }
+    .box4.acti{
+        background-color: #949494;
+        transition: 0.7s;
+    }
+    .box4.acti .toman{
+        display: none;
+    }
+    .box5 .nm {
+        display: none;
+    }
+    .box5.acti .nm{
+        display: block;
+        color: white;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 60px;
+        font-size: 42px;
+    }
+    .box5.acti{
+        background-color: #949494;
+        transition: 0.7s;
+    }
+    .box5.acti .toman{
+        display: none;
+    }
+.kos .messagebox{
+    margin-top: -29px;
+    width: 100%;
+    height: 110%;
+    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.527);
+    position: fixed;
+    visibility: hidden;
+}
+.buy{
+    width: 65%;
+    height: 55%;
+    background-color: #B1B1B1;
+    border-radius: 25px;
+    margin: auto;
+    border: none;
+}
+.gablame{
+    width: 180px;
+    height: 100%;
+    margin-left: 80%;
+    position: absolute;
+}
+.material-symbols-outlined {
+    font-size: 30px;
+    margin-top: 9px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  transition: 0.2s;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+::-webkit-scrollbar-track { 
+    border-radius: 10px;
+  }
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.349); 
+    border-radius: 10px;
+}
+.gombol{
+    margin-top: 10%;
+}
+
+.bigg-pic {
+    background-color: red;
+    width: 30%;
+    height: 50.5%;
+    margin-left: 51%;
+    position: absolute;
+    margin-top: 11.5%;
+    border-radius: 25px;
+}
+
+.litty-pic1 {
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    margin-left: 43%;
+    margin-top: 11.5%;
+    position: absolute;
+    border-radius: 15px;
+    display: flexbox;
+    
+}
+
+.litty-pic2 {
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    margin-left: 43%;
+    margin-top: 18.5%;
+    position: absolute;
+    border-radius: 15px;
+    display: flexbox;
+}
+
+.litty-pic3 {
+    background-color: red;
+    width: 70px;
+    height: 70px;
+    margin-left: 43%;
+    margin-top: 25.5%;
+    position: absolute;
+    border-radius: 15px;
+    display: flexbox;
+}
+.kalaaa{
+margin-top: 17%;
+margin-left: 27%;
+color: white;
+font-size: 60px;
+position: absolute;
+}
+.tooman{
+    margin-top: 22%;
+    margin-left: 26%;
+    color: white;
+    font-size: 45px;
+    position: absolute;
+}
+.sabt{
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin-top: 39%;
+    margin-left: 22%;
+    width: 16%;
+    height: 6%;
+    position: absolute;
+     text-align: center;
+     font-size: 25px;
+     color: white;
+     background-color: #5BAF4D;;
+}
+.tabage-ha{
+text-align: center;
+cursor: pointer;
+}
+.tabage{
+    border: none;
+    width:14% ;
+    height: 5%;
+    margin-top: 35%;
+    margin-left: 22.9%;
+    font-size: 25px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #929292;
+    color: white;
+    text-align: center;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+}
+.tabage-ha.asl{
+display: none;
+background-color: rgb(64, 64, 64);
+}
+body{
+    transition: 0.7s;
+}
+.kos .show{
+    visibility: visible;
+}
+@media only screen and (min-width: 1325px) {
+    .sabt{
+        cursor: pointer;
+        border-radius: 10px;
+        border: none;
+        margin-top: 34.5%;
+        margin-left: 22%;
+        width: 16%;
+        height: 6%;
+        position: absolute;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        background-color: #5BAF4D;;
+    }
+    .tabage{
+        border: none;
+        width:14% ;
+        height: 5%;
+        margin-top: 31.5%;
+        margin-left: 22.9%;
+        font-size: 25px;
+        border-radius: 10px;
+        position: absolute;
+        background-color: #929292;
+        color: white;
+        text-align: center;
+        outline: none;
+        appearance: none;
+        cursor: pointer;
+    }
+
+}
+#die{
+    color: white;
+    margin-top: 11px;
+    margin-left: 11px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.0s;
+}
+@media (prefers-color-scheme: dark){
+body.dark-mode .header .vo .switch .material-symbols-outlined{
+    color: white;
+    font-size: 30px;
+    margin-top: 9px;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    transition: 0.7s;
+}
+.dark-mode{
+    background-color: #404040;
+}
+body.dark-mode .footer{
+    background-color: #272727;
+}
+.switch input{
+    display: none;
+    position: absolute;
+}
+.material-symbols-outlined{
+margin-left: 11.5px;
+cursor: pointer;
+}
+.gablame1{
+    width: 180px;
+    height: 100%;
+    margin-left: 80%;
+    position: absolute;
+}
+body.dark-mode .main .grad{
+display: none;
+}
+body.dark-mode .main .grad2{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: block;
+}
+.grad2{
+    display: none;
+}
+body.dark-mode .main span{
+color: white;
+transition: 0.7s;
+}
+body.dark-mode .footer .box1{
+color: white;
+background-color: #181818;
+transition: 0.7s;
+}
+body.dark-mode .footer .box2{
+    color: white;
+    background-color: #181818;
+    transition: 0.7s;
+    }
+    body.dark-mode .footer .box3{
+        color: white;
+        background-color: #181818;
+        transition: 0.7s;
+        }
+        body.dark-mode .footer .box4{
+            color: white;
+            background-color: #181818;
+            transition: 0.7s;
+            }
+            body.dark-mode .footer .box5{
+                color: white;
+                background-color: #181818;
+                transition: 0.7s;
+                }
+body.dark-mode .header a .bottem{
+    background-color: #272727;
+    color: white;
+    transition: 0.7s;
+}
+body.dark-mode .header .vo{
+    background-color: #272727;
+}
+body.dark-mode .main span{
+    color: white;
+    transition: 0.7s;
+    }
+    body.dark-mode .footer .box1.acti{
+    color: white;
+    background-color: #333333;
+    transition: 0.7s;
+    }
+    body.dark-mode .footer .box2.acti{
+        color: white;
+        background-color: #333333;
+        transition: 0.7s;
+        }
+        body.dark-mode .footer .box3.acti{
+            color: white;
+            background-color: #333333;
+            transition: 0.7s;
+            }
+            body.dark-mode .footer .box4.acti{
+                color: white;
+                background-color: #333333;
+                transition: 0.7s;
+                }
+                body.dark-mode .footer .box5.acti{
+                    color: white;
+                    background-color: #333333;
+                    transition: 0.7s;
+                    }
+body.dark-mode .kos .buy{
+    background-color: #181818;
+    color: white;
+}
+body.dark-mode .kos .sabt{ 
+    background-color: #3F7237;
+}
+body.dark-mode .kos .tabage{
+    background-color: #262626;
+}
+#die{
+    color: white;
+    margin-top: 11px;
+    margin-left: 11px;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.0s;
+}
+}
