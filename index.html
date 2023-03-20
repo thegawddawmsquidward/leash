@@ -519,6 +519,36 @@
     color: white;
     font-size: 1.5pc;
 }
+.playit2{
+    pointer-events: auto;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 300px;
+    color: white;
+    height: 40px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.082);
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 79px;
+    border-top: 3px solid rgb(255, 0, 64);
+    border-right: 3px solid rgb(255, 0, 64);
+    border-bottom: none;
+    border-left: none;
+    cursor: url(https://cdn.custom-cursor.com/db/15051/32/starter-northern-lights-pointer.png) , pointer!important;
+    cursor: pointer;
+    clip-path: polygon(
+    0 15%,
+    4% 0,
+    100% 0,
+    100% 100%,
+    100% 85%,
+    96% 100%,
+    0% 100%,
+    0% 90%,
+    0% 10%
+  )
+}
 .playit{
     pointer-events: auto;
     border-bottom-left-radius: 10px;
@@ -2290,6 +2320,12 @@ label.notsick{
     height: 100%;
     backdrop-filter: blur(10px);
 }
+#exposed{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+}
 .yt{
     margin-top: 83px;
     margin-left: 70px;
@@ -2509,6 +2545,49 @@ label.notsick{
   )
 }
 #close11111{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    margin-bottom: 10px;
+    bottom: 0;
+    margin-left: 10px;
+    background: rgba(77, 0, 45, 0.55);
+    border: none;
+    cursor: url(https://cdn.custom-cursor.com/db/15051/32/starter-northern-lights-pointer.png) , pointer!important;
+    cursor: pointer;
+    clip-path: polygon(
+    0 20%,
+    20% 0,
+    100% 0,
+    100% 100%,
+    100% 80%,
+    80% 100%,
+    0% 100%,
+    0% 90%,
+    0% 10%
+  )
+}
+.versionname1{
+    position: fixed;
+    margin-bottom: 7px;
+    margin-left: 165px;
+    bottom: 0;
+}
+.versionname{
+    color: white;
+}
+.exposing{
+    width: 833px;
+    position: relative;
+    height: 468px;
+    margin-top: 20px;
+    margin-left: 50%;
+    left: -417px;
+}
+#closeexpose{
     position: absolute;
     width: 70px;
     height: 70px;
@@ -2776,10 +2855,10 @@ label.notsick{
     margin-bottom: 20px;
     border-radius: 15px;
     width: 465px;
-    height: 150px;
+    height: 210px;
     border: 2px solid rgba(255, 0, 64, 0.548);
     backdrop-filter: blur(10px);
-    background-color: rgba(0, 0, 0, 0.082)
+    background-color: rgba(0, 0, 0, 0.082);
 }
 .closerthing{
     pointer-events: auto;
@@ -3322,12 +3401,14 @@ clip-path: polygon(
         <div id="settings" class="settings show">
             <center class="thistbh">Settings</center>
             <button onclick="playPause()" id="playerrr" class="playit">
-                <audio src="https://cdn.discordapp.com/attachments/1020602508231585823/1087323744374095872/ambient.mp3"></audio>
+                <audio src="ROG SOI/ambient.mp3"></audio>
                 <h2 class="wtfisgoinooon">Play Ambient Sound</h2>
                 <center>
                     <h4 class="wtfisgoinooon2">This Setting Will Not Be Saved For The Next Time You Open ROG</h4>
                 </center>
             </button>
+            <button onclick="exposed()" class="playit2">Click Here For Beautiful photo (:</button>
+            <span class="versionname1"><center class="versionname">Project Leash v0.1.27</center></span>
         </div>
         <div onclick="noSettings()" id="closerthing" class="closerthing show"></div>
         <div class="wee1">
@@ -3908,6 +3989,20 @@ clip-path: polygon(
         <button onclick="bcktcty()" id="okaaay">Back To City</button>
         <iframe id="home" src="kossher.html" frameborder="0"></iframe>
     </div>
+    <div id="exposed" class="show">
+        <div class="top">
+            <center>
+                <div class="txt" id="txt8"></div>
+            </center>
+            </div>
+        <button onclick="die15()" id="closeexpose">
+            <span class="material-symbols-rounded">
+                close
+            </span>
+        </button>
+        <center><h1 class="">Ms. Dumbass said this website wasn't made by me (hi I'm amiri) so I proved them wrong</h1></center>
+        <img class="exposing" src="https://media.discordapp.net/attachments/1020602508231585823/1087396268499804312/image.png?width=833&height=468" alt="">
+    </div>
     <script>dragElement(document.getElementById("mydiv"));
 
 function dragElement(elmnt) {
@@ -4018,6 +4113,7 @@ function startTime() {
     document.getElementById('txt5').innerHTML =  h + ":" + m + ":" + s;
     document.getElementById('txt6').innerHTML =  h + ":" + m + ":" + s;
     document.getElementById('txt7').innerHTML =  h + ":" + m + ":" + s;
+    document.getElementById('txt8').innerHTML =  h + ":" + m + ":" + s;
     setTimeout(startTime, 1000);
   }
   
@@ -4113,6 +4209,12 @@ function checkTime(i) {
     document.getElementById("his2").innerHTML = document.getElementById("aminmsg").innerHTML;
     var yes = document.getElementById("first");
     yes.classList.add("show");
+  }
+  function exposed(){
+    var no = document.getElementById("exposed");
+    no.classList.toggle("show");
+    var no = document.getElementById("txt");
+    no.classList.add("show");
   }
   function callthisbitch1(){
     var no = document.getElementById("watch2");
@@ -4260,6 +4362,12 @@ function checkTime(i) {
   }
   function die14() {
     var no = document.getElementById("socials");
+    no.classList.toggle("show");
+    var yes = document.getElementById("first");
+    yes.classList.remove("show");
+  }
+  function die15() {
+    var no = document.getElementById("exposed");
     no.classList.toggle("show");
     var yes = document.getElementById("first");
     yes.classList.remove("show");
