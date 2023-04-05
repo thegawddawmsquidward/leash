@@ -4093,29 +4093,6 @@ function dragElement(elmnt) {
     document.onmousemove = null;
   }
 }
-function startTime() {
-    const today = new Date();
-    let h = today.getHours() % 12 || 12;
-    let m = today.getMinutes();
-    let s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
-    document.getElementById('txt1').innerHTML =  h + ":" + m + ":" + s;
-    document.getElementById('txt2').innerHTML =  h + ":" + m + ":" + s;
-    document.getElementById('txt3').innerHTML =  h + ":" + m + ":" + s;
-    document.getElementById('txt4').innerHTML =  h + ":" + m + ":" + s;
-    document.getElementById('txt5').innerHTML =  h + ":" + m + ":" + s;
-    document.getElementById('txt6').innerHTML =  h + ":" + m + ":" + s;
-    document.getElementById('txt7').innerHTML =  h + ":" + m + ":" + s;
-    document.getElementById('txt8').innerHTML =  h + ":" + m + ":" + s;
-    setTimeout(startTime, 1000);
-  }
-  
-function checkTime(i) {
-    if (i < 10) {i = "0" + i};
-    return i;
-  }
 
   function openCam(){
     var no = document.getElementById("watchtogether");
